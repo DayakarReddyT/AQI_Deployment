@@ -12,7 +12,7 @@ import pickle
 # In[71]:
 
 
-app=Flask(__name__)
+app=Flask(__name__,template_folder='./templates')
 
 model=pickle.load(open('random_forest.pkl','rb'))
 scaler=pickle.load(open('AQI_scaler_.pkl','rb'))
