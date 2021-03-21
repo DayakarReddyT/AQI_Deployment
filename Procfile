@@ -1,1 +1,1 @@
-web: gunicorn AQI_Flask:server
+web: gunicorn AQI_Flask:app
